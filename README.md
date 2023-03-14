@@ -21,10 +21,10 @@
 <ol>
 <li>Clone the repository.</li>
 <li>Create an isolated environment python3 -m venv {env_name}</li>
-    <li>Activate your environment user@pc$ source {env_name}/bin/activate
-		<li>Install the required packages with <code>pip install -r requirements.txt</code>.</li>
-		<li>Set the API key in the <code>credentials.py</code> file.</li>
-		<li>Run the API with <code>uvicorn main:app --reload</code>.</li>
-		<li>Access the API with a GET request to the 'http://localhost:8000/' endpoint.</li>
-    <li>To test API use 'http://localhost:8000/docs](http://localhost:8000/docs#/default/get_indicators_indicators_get' link</li>
-	</ol>
+<li>Activate your environment user@pc$ source {env_name}/bin/activate
+<li>Install the required packages with <code>pip install -r requirements.txt</code>.</li>
+<li>Set the API key in the <code>credentials.py</code> file.</li>
+<li>Run the API with <code>uvicorn main:app --reload</code>.</li>
+<li>Access the API with a GET request to the 'http://localhost:8000/' endpoint.</li>
+<li>To test API use http://localhost:8000/docs#/default/get_indicators_indicators_get' link</li>
+</ol>
